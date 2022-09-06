@@ -19,4 +19,4 @@ def index():
     meme_title, meme_pic = get_meme()
     return render_template("index.html", meme_title=meme_title, meme_pic=meme_pic)
 
-app.run(host="0.0.0.0", port=8080)
+app.run(host="127.0.0.1", port=8080)
